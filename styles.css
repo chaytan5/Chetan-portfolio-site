@@ -53,7 +53,7 @@ hr {
 
 .list-item-inline {
     display: inline;
-    padding: 0rem 0.7rem;
+    padding: 0rem 0.1rem;
 }
 
 /* nav  */
@@ -98,7 +98,8 @@ hr {
 .hero .hero-heading {
     color: var(--dark-gray);
     padding-top: 1rem;
-    margin: auto;
+    /* margin: auto; */
+    text-align: center;
 
 }
 
@@ -114,4 +115,28 @@ hr {
 
 .ow {
     background-color: var(--off-white);
+}
+
+/* footer */
+
+.footer{
+    background-color: var(--primary-color);
+    text-align: center;
+    padding: 2rem 1rem;
+    border-top-left-radius: 0.7rem;
+    border-bottom-right-radius: 0.7rem;
+    color: white;
+}
+
+.footer-heading{
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.footer .link{
+    color: white;
+}
+
+.footer ul{
+    padding-inline-start: 0px;
 }
